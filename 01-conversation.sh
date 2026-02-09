@@ -21,5 +21,5 @@
 #!/bin/bash
 
 echo "Please enter your Pin number"
-read PIN_NUMBER
+read -s PIN_NUMBER
 echo "Pin entered is $PIN_NUMBER"
