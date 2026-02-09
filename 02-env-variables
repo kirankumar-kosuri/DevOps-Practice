@@ -3,4 +3,4 @@
 # echo Course name is : $COURSE"
 
 DATE=$(date)
-echo "TimeStamp Executed in: $DATE
+echo "TimeStamp Executed in: $DATE"
