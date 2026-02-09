@@ -2,3 +2,6 @@
 echo "All variables passed to the script : $@"
 echo "All variables passwd to the script : $*"
 echo "Name of the Script : $0"
+echo "Current Directory : $PWD"
+echo "Who is running this : $USER"
+echo "Home directory of the : $HOME"
