@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "Course name is : $COURSE"
+# echo Course name is : $COURSE"
+
+DATE=$(date)
+echo "TimeStamp Executed in: $DATE
