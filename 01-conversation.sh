@@ -24,7 +24,7 @@
 # read -s PIN_NUMBER
 # echo "Pin entered is $PIN_NUMBER"
 
-#!/bin/blash
+#!/bin/bash
 echo "Please enter your Pin Number"
 read -s PIN_NUMBER
 echo "The pin number is : $PIN_NUMBER"
