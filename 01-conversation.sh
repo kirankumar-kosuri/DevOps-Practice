@@ -7,8 +7,8 @@
 
 #!/bin/bash
 
-PERSON1=Pavan
-PERSON2=Kumar
+PERSON1=sai
+PERSON2=suman
 
 echo "$PERSON1 :: Hi $PERSON2 how are you"
 echo "$PERSON2 :: i am fine $PERSON1, what about you $PERSON2"
