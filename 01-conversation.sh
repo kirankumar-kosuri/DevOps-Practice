@@ -20,6 +20,11 @@
 
 #!/bin/bash
 
-echo "Please enter your Pin number"
-read -s PIN_NUMBER
-echo "Pin entered is $PIN_NUMBER"
+# echo "Please enter your Pin number"
+# read -s PIN_NUMBER
+# echo "Pin entered is $PIN_NUMBER"
+
+#!/bin/blash
+echo "Please enter your Pin Number"
+read PIN_NUMBER
+echo "The pin number is : $PIN_NUMBER"
