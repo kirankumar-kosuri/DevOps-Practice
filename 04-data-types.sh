@@ -9,3 +9,4 @@ echo "Sum is : ${SUM}"
 
 LEADERS=("Modi" "Trump" "Gandhi")
 echo "All Leaders are : ${LEADERS[@]}"
+echo "All Leaders are : ${LEADERS[0]}"
