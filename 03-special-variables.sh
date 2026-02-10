@@ -4,7 +4,7 @@ echo "All variables passwd to the script : $*"
 echo "Name of the Script : $0"
 echo "Current Directory : $PWD"
 echo "Who is running this : $USER"
-echo "Home directory of the : $HOME"
+echo "Home directory of the user : $HOME"
 echo "PID for this script : $$"
 sleep 10 &
 echo "PID of the last command in the background : $!"
