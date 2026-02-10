@@ -41,6 +41,7 @@ fi
 dnf remove python3 -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing python3 is failure"
+    exit 1
 else
     echo "Intalling python3 is success"
 fi
