@@ -8,6 +8,7 @@ N="\e[0m"
 USERID=$(id -u)
 if [ $USERID -ne 0 ]; then
     echo "Error :: Please Run This Script With Root Privilage"
+    exit 1
 fi
 
 VALIDATE() {
@@ -17,6 +18,7 @@ VALIDATE() {
     else
         echo -e "Installing $2 ... $G SUCCESS $N"
 }
+
 dnf list installed mysql
 if [ $? -ne 0 ]; then
     dnf install mysql -y
