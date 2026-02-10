@@ -28,7 +28,7 @@ else
     echo -e "MySQL already exist ... $Y SKIPPING $N"
 fi
 
-dnf listed installed nginx
+dnf list installed nginx
 if [ $? -ne 0 ]; then
     dnf install nginx -y
     VALIDATE $? "Nginx"
