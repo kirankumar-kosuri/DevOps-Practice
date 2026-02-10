@@ -11,7 +11,7 @@ if [ $? -ne 0 ]; then
     echo "Installing Mysql is Failure"
     exit 1
 else
-    echo "INSTALLING Mysql IS SUCCESS"
+    echo "Installing Mysql is Success"
 fi  
 
 #########################################
@@ -26,7 +26,7 @@ fi
 #########################################
 
 dnf install python3 -y
-if [ $? - ne 0 ]; then
+if [ $? -ne 0 ]; then
     echo "Installing Python3 is Failure"
 else
     echo "Installing Python3 is Success"
