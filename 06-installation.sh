@@ -29,7 +29,7 @@ else
 fi
 
 
-dnf install nginx -y
+dnf remove nginx -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing nginx is failure"
     exit 1
@@ -38,7 +38,7 @@ else
 fi
 
 
-dnf install python3 -y
+dnf remove python3 -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing python3 is failure"
 else
