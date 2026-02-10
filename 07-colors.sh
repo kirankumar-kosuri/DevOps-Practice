@@ -26,6 +26,7 @@ if [ $? -ne 0 ]; then
     VALIDATE $? "MySQL"
 else
     echo " MySQL already exist ... $Y SKIPPING $N"
+fi
 
 dnf listed installed nginx
 if [ $? -ne 0 ]; then
@@ -33,6 +34,7 @@ if [ $? -ne 0 ]; then
     VALIDATE $? "Nginx"
 else
     echo "Nginx already exist ... $Y SKIPPING $N"
+fi
 
 dnf list installed python3
 if [ $? -ne 0 ]; then
