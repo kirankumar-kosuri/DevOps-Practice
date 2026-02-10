@@ -11,7 +11,7 @@
 
 #!/bin/bash
 echo "PLEASE ENTER THE NUMBER"
-if [ $(($NUMBER % 2 )) -ne 0 ]; then
+if [ $(($NUMBER % 2)) -ne 0 ]; then
     echo "Given Number $NUMBER is EVEN"
 else
     echo "Given Number $NUMBER is ODD"
