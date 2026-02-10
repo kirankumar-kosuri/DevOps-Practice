@@ -20,28 +20,28 @@ if [ $USERID -ne 0 ]; then
     exit 1
 fi
 
-dnf remove mysql -y
+dnf install mysql -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing mysql is failure"
-    #exit 1
+    exit 1
 else
     echo "Installing mysql is success"
 fi
 
 
-dnf remove nginx -y
+dnf install nginx -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing nginx is failure"
-    #exit 1
+    exit 1
 else
     echo "Installing nginx is success"
 fi
 
 
-dnf remove python3 -y
+dnf install python3 -y
 if [ $? -ne 0 ]; then
     echo "Error :: Installing python3 is failure"
-    #exit 1
+    exit 1
 else
     echo "Intalling python3 is success"
 fi
