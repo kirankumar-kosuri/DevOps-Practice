@@ -23,10 +23,10 @@ for package in $@
 do
     #echo "Package is : $package"
     dnf list installed $package
-    if [ $? - ne 0 ]; then
+    if [ $? -ne 0 ]; then
         dnf install $package -y 
         VALIDATE $? "$package"
     else
-        echo $package is already installed
+        echo $package  already installed
     fi
 done
