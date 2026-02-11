@@ -21,5 +21,11 @@ fi
 
 for package in $@
 do
-    echo "Package is : $package"
+    #echo "Package is : $package"
+    dnf list installed $package -y 
+    if [ $? - ne 0 ]; then
+        dnf install $package
+        VALIDATE $? "$package"
+    else
+        echo $package is already installed
 done
