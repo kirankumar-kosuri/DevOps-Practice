@@ -25,7 +25,6 @@ VALIDATE(){ # functions receive inputs through args just like shell script args
         echo -e "$2 ... $G SUCCESS $N" | tee -a $LOG_FILE
     fi
 }
-
 cp mongo.repo /etc/yum.repos.d/mongo.repo
 VALIDATE $? "adding mongo.repo"
 
